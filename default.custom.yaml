@@ -4,7 +4,8 @@
 patch:
   # 方案列表
   schema_list:
-    - schema: geniusk_double_pinyin  # geniusk 自然码双拼
+    - schema: geniusk_double_pinyin_zrm  # geniusk 自然码双拼+辅码 (推荐)
+    - schema: geniusk_double_pinyin      # geniusk 自然码双拼 (纯双拼)
 
   # 候选词数量
   menu/page_size: 9
