@@ -1,0 +1,22 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# geniusk 个人词典
+# 引用雾凇拼音词库
+
+---
+name: geniusk_double_pinyin
+version: "1.0"
+sort: by_weight
+import_tables:
+  # 雾凇拼音词库 (需要将 rime-ice 的 cn_dicts 目录复制到此目录)
+  - cn_dicts/8105     # 字表 (8105个常用汉字)
+  - cn_dicts/base     # 基础词库
+  - cn_dicts/ext      # 扩展词库
+  - cn_dicts/tencent  # 腾讯词向量 (大词库)
+  - cn_dicts/others   # 杂项词库
+...
+
+# 在此添加个人词条 (格式: 词条<Tab>拼音<Tab>权重)
+# 示例:
+# 自定义词	zi ding yi ci	100

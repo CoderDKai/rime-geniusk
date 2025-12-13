@@ -1,0 +1,23 @@
+# Rime 编译产物
+build/
+*.bin
+*.prism.bin
+*.reverse.bin
+*.table.bin
+
+# 用户词库
+*.userdb/
+*.userdb.txt
+*.snapshot
+
+# 同步与安装
+sync/
+installation.yaml
+
+# 日志与临时文件
+*.log
+trash/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db

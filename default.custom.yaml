@@ -1,0 +1,20 @@
+# default.custom.yaml
+# geniusk 个人 Rime 配置
+
+patch:
+  # 方案列表
+  schema_list:
+    - schema: geniusk_double_pinyin  # geniusk 自然码双拼
+
+  # 候选词数量
+  menu/page_size: 9
+
+  # 中西文切换
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Shift_L: inline_ascii    # 左 Shift 临时切换英文
+    Shift_R: commit_text     # 右 Shift 上屏并切换
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: clear
+    Eisu_toggle: clear
