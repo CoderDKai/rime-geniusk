@@ -5,13 +5,13 @@
 # 基于 rime-shuangpin-fuzhuma 和雾凇拼音
 
 schema:
-  schema_id: geniusk_double_pinyin_zrm
-  name: "geniusk 自然码双拼·辅码"
+  schema_id: double_pinyin_zrm_aux
+  name: "自然码+辅码"
   version: "1.0"
   author:
     - geniusk
   description: |
-    geniusk 自然码双拼 + 自然码辅助码
+    自然码双拼 + 自然码辅助码
     辅码来源：rime-shuangpin-fuzhuma
   dependencies:
     - melt_eng
@@ -20,7 +20,7 @@ schema:
 # 开关设置
 switches:
   - name: ascii_mode
-    states: [ 中, En ]
+    states: [ 双, A ]
   - name: ascii_punct
     states: [ ¥, $ ]
   - name: traditionalization
@@ -93,10 +93,10 @@ __patch:
 
 # 主翻译器
 translator:
-  dictionary: geniusk_double_pinyin_zrm
-  prism: geniusk_double_pinyin_zrm
+  dictionary: double_pinyin_zrm_aux
+  prism: double_pinyin_zrm_aux
   enable_user_dict: true
-  enable_completion: false
+  enable_completion: true
   initial_quality: 100
   spelling_hints: 1
   comment_format:

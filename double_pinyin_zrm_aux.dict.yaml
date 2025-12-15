@@ -5,7 +5,7 @@
 # 引用 rime-shuangpin-fuzhuma 的辅码词库
 
 ---
-name: geniusk_double_pinyin_zrm
+name: double_pinyin_zrm_aux
 version: "1.0"
 sort: by_weight
 use_preset_vocabulary: false
