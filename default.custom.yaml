@@ -5,7 +5,6 @@ patch:
   # 方案列表
   schema_list:
     - schema: double_pinyin_zrm      # 自然码 (纯双拼)
-    - schema: double_pinyin_zrm_aux  # 自然码+辅码
 
   # 候选词数量
   menu/page_size: 9
