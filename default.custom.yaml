@@ -15,7 +15,7 @@ patch:
   ascii_composer/switch_key:
     Shift_L: noop
     Shift_R: noop
-    Control_L: commit_text   # 左 Ctrl 上屏并切换中英文
+    Control_L: commit_code
     Control_R: noop
-    Caps_Lock: noop          # 禁用大写键
+    Caps_Lock: noop
     Eisu_toggle: clear
